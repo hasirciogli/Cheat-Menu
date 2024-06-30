@@ -52,51 +52,58 @@ build cmake_object_order_depends_target_ImGui_SDL2_OpenGL3: phony || .
 build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
   DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
   OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
   OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
 
 build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_draw.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_draw.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
   DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
-  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
-  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
-
-build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_tables.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
-  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
-  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
-  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
-
-build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
-  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
-  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
-  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
-
-build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
-  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
   OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
   OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
 
 build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_opengl3.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
   DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_opengl3.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
+
+build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_impl_sdl2.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
+  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
+
+build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_tables.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
+  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
+
+build CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
+  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
   OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
   OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui
 
 build CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/src/Main.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
   DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
   OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
   OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/src
+
+build CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/menu/Menu.cpp.o: CXX_COMPILER__ImGui_SDL2_OpenGL3_unscanned_Debug /Users/hasircioglu/sex/imgui_project/src/menu/Menu.cpp || cmake_object_order_depends_target_ImGui_SDL2_OpenGL3
+  DEP_FILE = CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/menu/Menu.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.30.4/include -I/Users/hasircioglu/sex/imgui_project/imgui/assets/fonts -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -I/opt/homebrew/include -I/Users/hasircioglu/sex/imgui_project/imgui -I/Users/hasircioglu/sex/imgui_project/imgui/backends -isystem /opt/homebrew/Cellar/sdl2/2.30.4/include/SDL2
+  OBJECT_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/menu
 
 
 # =============================================================================
@@ -106,7 +113,7 @@ build CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o: CXX_COMPILER__ImGui_SDL2
 #############################################
 # Link the executable ImGui_SDL2_OpenGL3
 
-build ImGui_SDL2_OpenGL3: CXX_EXECUTABLE_LINKER__ImGui_SDL2_OpenGL3_Debug CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_draw.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o | /opt/homebrew/Cellar/sdl2/2.30.4/lib/libSDL2.dylib /opt/homebrew/lib/libGLEW.dylib
+build ImGui_SDL2_OpenGL3: CXX_EXECUTABLE_LINKER__ImGui_SDL2_OpenGL3_Debug CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_draw.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/menu/Menu.cpp.o | /opt/homebrew/Cellar/sdl2/2.30.4/lib/libSDL2.dylib /opt/homebrew/lib/libGLEW.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/Cellar/sdl2/2.30.4/lib  /opt/homebrew/Cellar/sdl2/2.30.4/lib/libSDL2.dylib  -framework OpenGL  -framework OpenGL  /opt/homebrew/lib/libGLEW.dylib
   LINK_PATH = -L/opt/homebrew/Cellar/sdl2/2.30.4/lib

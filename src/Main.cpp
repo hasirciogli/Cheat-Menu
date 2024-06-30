@@ -7,6 +7,8 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
 
+#include "menu/Menu.hpp"
+
 int main(int, char **) {
   // Setup SDL
   if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_GAMECONTROLLER) !=
@@ -50,6 +52,8 @@ int main(int, char **) {
   io.ConfigFlags |=
       ImGuiConfigFlags_NavEnableGamepad; // Enable Gamepad Controls
 
+  CMenu::Get().Init(window, gl_context);
+
   // Setup Dear ImGui style
   ImGui::StyleColorsDark();
 
@@ -71,23 +75,7 @@ int main(int, char **) {
         done = true;
     }
 
-    // Start the ImGui frame
-    ImGui_ImplOpenGL3_NewFrame();
-    ImGui_ImplSDL2_NewFrame();
-    ImGui::NewFrame();
-
-    // Show a simple window that we create ourselves. We use a Begin/End pair to
-    // create a named window.
-    {
-      ImGui::Begin("Hello, world!"); // Create a window called "Hello, world!"
-                                     // and append into it.
-      ImGui::Text("This is some useful text."); // Display some text (you can
-                                                // use a format strings too)
-      if (ImGui::Button("Button")) // Buttons return true when clicked (most
-                                   // widgets return true when edited/activated)
-        printf("Button Pressed\n");
-      ImGui::End();
-    }
+    CMenu::Get().Render();
 
     // Rendering
     ImGui::Render();
