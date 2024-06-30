@@ -1,0 +1,12 @@
+# ninja log v5
+1	980	1719773744693006700	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_tables.cpp.o	d2cca12d120c33cb
+0	1575	1719773745290210910	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui.cpp.o	e2ca011d5f2ccce0
+2	591	1719774050393547324	CMakeFiles/ImGui_SDL2_OpenGL3.dir/src/Main.cpp.o	11212b1597f190cb
+2	243	1719773774412209362	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/backends/imgui_impl_sdl2.cpp.o	c3d5d8933c60b3a2
+1	1392	1719773745107548807	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_widgets.cpp.o	517bddce1c7e79b5
+3	303	1719773804960752102	CMakeFiles/ImGui_SDL2_OpenGL3.dir/main.cpp.o	8bbad47a07966f8
+3	306	1719774123758087526	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_opengl3.cpp.o	8a6cb1c6aac88dfc
+1	1180	1719773744894736024	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_draw.cpp.o	d559e49238c1b45b
+2	581	1719773744294032461	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/backends/imgui_impl_opengl3.cpp.o	5a0596a034427f08
+428	574	1719774124024341456	ImGui_SDL2_OpenGL3	3f3513ebeae979fc
+3	428	1719774123880381607	CMakeFiles/ImGui_SDL2_OpenGL3.dir/imgui/imgui_impl_sdl2.cpp.o	e6ce6462d9b9919f
